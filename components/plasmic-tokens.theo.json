@@ -1,0 +1,109 @@
+{
+  "props": [
+    {
+      "name": "Dark Blue",
+      "type": "color",
+      "value": "#11253E",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "Soy7h-sfNiWHD3"
+      }
+    },
+    {
+      "name": "Konceptiva Blue",
+      "type": "color",
+      "value": "#0F233C",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "oAH6fIYYGszfd2"
+      }
+    },
+    {
+      "name": "Konceptiva Yellow",
+      "type": "color",
+      "value": "#FEBE10",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "pIhWOiJbWpqz3j"
+      }
+    },
+    {
+      "name": "Menu text",
+      "type": "color",
+      "value": "#3E7CB1",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "Mmr5w6CsNtLzn9"
+      }
+    },
+    {
+      "name": "Trans",
+      "type": "color",
+      "value": "#53535300",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "qbqHz_Gkm5O8mp"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "color",
+      "value": "#F5F6F6",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "M5ZJ3oTKqIUaSF"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 2",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "hzkxpPdHDR6tTQ"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 3",
+      "type": "color",
+      "value": "#335075",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "K2s5fPo8FwoPE7"
+      }
+    },
+    {
+      "name": "White",
+      "type": "color",
+      "value": "#FFFFFFCC",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "WBPB2xWRKKSvzK"
+      }
+    },
+    {
+      "name": "caption blue",
+      "type": "color",
+      "value": "#335075",
+      "category": "color",
+      "meta": {
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "id": "jI46uOvSKw-7eH"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

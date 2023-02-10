@@ -1,0 +1,1345 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": "3.8.0",
+      "cssFilePath": "plasmic/react_slick/plasmic_react_slick.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "Slider",
+          "componentImportPath": "react-slick"
+        }
+      ]
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.8.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ]
+    },
+    {
+      "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
+      "projectApiToken": "DWg4EVpu2l6n6fAdMDCvE22FFoWH1NK3ZmqmXnzezysh5ZWic03cixuobavnSG7W2O29VnLlgnyQp1TAijQ",
+      "projectName": "antd",
+      "version": "2.12.2",
+      "cssFilePath": "plasmic/antd/plasmic_antd.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "kv6Mk_JNYw",
+          "name": "Button",
+          "componentImportPath": "antd/lib/button"
+        },
+        {
+          "id": "iBC45mjTXv",
+          "name": "Slider",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerSlider"
+        },
+        {
+          "id": "tRueht1jub",
+          "name": "Switch",
+          "componentImportPath": "antd/lib/switch"
+        },
+        {
+          "id": "YRr0RPAdEj",
+          "name": "Option",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "Ay1H491feg",
+          "name": "OptGroup",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "2YpGIhkzkpc",
+          "name": "Select",
+          "componentImportPath": "antd/lib/select"
+        },
+        {
+          "id": "yegZ392NLoV",
+          "name": "CollapsePanel",
+          "componentImportPath": "antd/lib/collapse/CollapsePanel"
+        },
+        {
+          "id": "F10gpQ1ZhXY",
+          "name": "Collapse",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerCollapse"
+        },
+        {
+          "id": "SAEWraOT2YV",
+          "name": "Checkbox",
+          "componentImportPath": "antd/lib/checkbox/Checkbox"
+        },
+        {
+          "id": "m5zFS-kMOL-",
+          "name": "CheckboxGroup",
+          "componentImportPath": "antd/lib/checkbox/Group"
+        },
+        {
+          "id": "6DZuSUEKjFh",
+          "name": "MenuDivider",
+          "componentImportPath": "antd/lib/menu/MenuDivider"
+        },
+        {
+          "id": "HZ6EmQgIQJr",
+          "name": "MenuItem",
+          "componentImportPath": "antd/lib/menu/MenuItem"
+        },
+        {
+          "id": "LGE6ExNG8fZ",
+          "name": "ItemGroup",
+          "componentImportPath": "rc-menu"
+        },
+        {
+          "id": "DSwQm8gUYob",
+          "name": "SubMenu",
+          "componentImportPath": "antd/lib/menu/SubMenu"
+        },
+        {
+          "id": "Iz_hLKpHZDg",
+          "name": "Menu",
+          "componentImportPath": "antd/lib/menu/index"
+        },
+        {
+          "id": "_C8wcdH3BDp",
+          "name": "Carousel",
+          "componentImportPath": "antd/lib/carousel"
+        },
+        {
+          "id": "tO9wrxr8Nbb",
+          "name": "Input",
+          "componentImportPath": "antd/lib/input"
+        },
+        {
+          "id": "ZJIPHLoTjkN",
+          "name": "TextArea",
+          "componentImportPath": "antd/lib/input/TextArea"
+        },
+        {
+          "id": "zDcn8vsMldu",
+          "name": "Search",
+          "componentImportPath": "antd/lib/input/Search"
+        },
+        {
+          "id": "fTDg0FM1tnD",
+          "name": "Password",
+          "componentImportPath": "antd/lib/input/Password"
+        },
+        {
+          "id": "uZueUXuqePq",
+          "name": "InputGroup",
+          "componentImportPath": "antd/lib/input/Group"
+        },
+        {
+          "id": "cv59X4q0WK",
+          "name": "Dropdown",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerDropdown"
+        },
+        {
+          "id": "cHUYQj2aKK",
+          "name": "DropdownButton",
+          "componentImportPath": "antd/lib/dropdown/dropdown-button"
+        },
+        {
+          "id": "p3HNI5RglT",
+          "name": "TabPane",
+          "componentImportPath": "rc-tabs"
+        },
+        {
+          "id": "Hb-DVgvuk3",
+          "name": "Tabs",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTabs"
+        },
+        {
+          "id": "Q0BhxRa-Moi",
+          "name": "Rate",
+          "componentImportPath": "antd/lib/rate"
+        },
+        {
+          "id": "LF24IrAPbeRN",
+          "name": "TableWrapper",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
+        },
+        {
+          "id": "qJFaUEuzy9Ae",
+          "name": "TableColumn",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
+        },
+        {
+          "id": "aOob39p1-Dlv",
+          "name": "TableValue",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
+        }
+      ]
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.8.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ]
+    },
+    {
+      "projectId": "oVWAucqWj6DsPJvsydPAdo",
+      "projectApiToken": "eUNz2XzwbzKgBBHBthURmcfI59OP729zg3DXaTu9vCvCILxNBpjykvGg9rb7nvzkbI7R9UNsUfTmE39CQ",
+      "projectName": "Copy of Coach website",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_coach_website/plasmic_copy_of_coach_website.module.css",
+      "components": [
+        {
+          "id": "rW0VdT_rQ3NFD",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "8uXEbGCqxCxV6S",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "Bt-e7_j9T8tH-Z",
+          "name": "MenuHeaderDesktop",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicMenuHeaderDesktop.tsx",
+          "importSpec": {
+            "modulePath": "MenuHeaderDesktop.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicMenuHeaderDesktop.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "iNPBer4qvTiKIy",
+          "name": "YellowButton",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicYellowButton.tsx",
+          "importSpec": {
+            "modulePath": "YellowButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicYellowButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HM_XHLznb3Fetc",
+          "name": "IndustryManufacturing",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryManufacturing.tsx",
+          "importSpec": {
+            "modulePath": "../pages/industry-manufacturing.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryManufacturing.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "hqPlJbMpP0AGl0",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ex2i4sN0MTAAq7",
+          "name": "WhoIsItForEmployees",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForEmployees.tsx",
+          "importSpec": {
+            "modulePath": "../pages/who-is-it-for-employees.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForEmployees.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "AN4r_SFWZVILPk",
+          "name": "WhoIsItForManagers",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForManagers.tsx",
+          "importSpec": {
+            "modulePath": "../pages/who-is-it-for-managers.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForManagers.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "V8UjvMShd-LGqS",
+          "name": "WhoIsItForInstructionalDesigners",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForInstructionalDesigners.tsx",
+          "importSpec": {
+            "modulePath": "../pages/who-is-it-for-instructional-designers.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForInstructionalDesigners.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "sPrtmxcekNF2QG",
+          "name": "WhoIsItForCeOs",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForCeOs.tsx",
+          "importSpec": {
+            "modulePath": "../pages/who-is-it-for-ceos.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicWhoIsItForCeOs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "PXvaPNSmlnDXyE",
+          "name": "IndustryPharmaceuticals",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryPharmaceuticals.tsx",
+          "importSpec": {
+            "modulePath": "../pages/industry-pharmaceuticals.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryPharmaceuticals.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "0oM51bbri1e3eB",
+          "name": "IndustryLuxuryGoods",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryLuxuryGoods.tsx",
+          "importSpec": {
+            "modulePath": "../pages/industry-luxury-goods.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryLuxuryGoods.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "tYSn2k-DYriNP",
+          "name": "IndustryConsumerElectronics",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryConsumerElectronics.tsx",
+          "importSpec": {
+            "modulePath": "../pages/industry-consumer-electronics.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryConsumerElectronics.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "GbgCSrKDNkEW8",
+          "name": "IndustryTelecommunication",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryTelecommunication.tsx",
+          "importSpec": {
+            "modulePath": "../pages/industry-telecommunication.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryTelecommunication.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "TB0rdnIYofo3d",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "cy0n3QtUybNPk",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicSelect__Option.tsx",
+          "importSpec": {
+            "modulePath": "Select__Option.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "6mZi2vo3eTrI4t",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicSelect__OptionGroup.tsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "E-h5s_FMDYaMRc",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicSelect__Overlay.tsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "2wBvIzW_i3cBDZ",
+          "name": "IndustryCard",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryCard.tsx",
+          "importSpec": {
+            "modulePath": "IndustryCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicIndustryCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Vh4FbAjjUESJa0",
+          "name": "Features",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicFeatures.tsx",
+          "importSpec": {
+            "modulePath": "../pages/features.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicFeatures.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "HYxHqp5lqPNvYs",
+          "name": "ReusableHeader",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicReusableHeader.tsx",
+          "importSpec": {
+            "modulePath": "ReusableHeader.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicReusableHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_1GM9WVHJfCyWB",
+          "name": "AboutUs",
+          "type": "managed",
+          "projectId": "oVWAucqWj6DsPJvsydPAdo",
+          "renderModuleFilePath": "plasmic/copy_of_coach_website/PlasmicAboutUs.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about-us.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_coach_website/PlasmicAboutUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "hUz3QbUrxnIJqL",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "TE7ZlDmP2v4Kt-",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "JLBYhDmNrAxQHA",
+          "name": "DownArrowIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__DownArrow.tsx"
+        },
+        {
+          "id": "mP7j-pfAfjId7Y",
+          "name": "HamburgerIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Hamburger.tsx"
+        },
+        {
+          "id": "nQPEXHVbsS2lZS",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "4nikFPIbbHpKGh",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "CBOsvLboL1g8jo",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Icon28.tsx"
+        },
+        {
+          "id": "Z-AR8XJDcwVeYH",
+          "name": "CorrectsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__Correctsvg.tsx"
+        },
+        {
+          "id": "ueOm1hEkZDRWuu",
+          "name": "FooterIconFbsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__FooterIconFbsvg.tsx"
+        },
+        {
+          "id": "SoRBO6E-YKCesH",
+          "name": "FooterIconInstagramsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__FooterIconInstagramsvg.tsx"
+        },
+        {
+          "id": "z30TS1rG4o-u45",
+          "name": "FooterIconLinkedinsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__FooterIconLinkedinsvg.tsx"
+        },
+        {
+          "id": "nEbcHWzFYUKAen",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__ChevronDownsvg.tsx"
+        },
+        {
+          "id": "L70RHZdo69Kf4u",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_coach_website/icons/PlasmicIcon__ChevronUpsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "i7zW7Z1xySAN3s",
+          "name": "Frame.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/framesvg.svg"
+        },
+        {
+          "id": "rr0vShAXqCr2LV",
+          "name": "image",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/image.svg"
+        },
+        {
+          "id": "r3ELSVIpsY3r22",
+          "name": "icons8-menu.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/icons8Menusvg.svg"
+        },
+        {
+          "id": "inVWcjJawiNzy4",
+          "name": "icons8-menu (1).svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/icons8Menu1Svg.svg"
+        },
+        {
+          "id": "9CPS4T325dnFym",
+          "name": "coachlogo-black.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachlogoBlacksvg.svg"
+        },
+        {
+          "id": "LJIeQ-og2JQik7",
+          "name": "bannerimg1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/bannerimg1Png.png"
+        },
+        {
+          "id": "pi78r41hM1nnjZ",
+          "name": "Group 940.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group940Svg.svg"
+        },
+        {
+          "id": "DoneCHgRrX1hSH",
+          "name": "Frame 986.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/frame986Svg.svg"
+        },
+        {
+          "id": "OYAsDdX-0Q_E_x",
+          "name": "Group 942.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group942Svg.svg"
+        },
+        {
+          "id": "9iaHDrZMlJkFgc",
+          "name": "Group 1017.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group1017Svg.svg"
+        },
+        {
+          "id": "a1x0LCZyDOvrkg",
+          "name": "coach-managers.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachManagerssvg.svg"
+        },
+        {
+          "id": "9mfIwH_gUAgir-",
+          "name": "coach-ids.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachIdssvg.svg"
+        },
+        {
+          "id": "0xNBW2z1Mpqy8p",
+          "name": "coach-seos.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachSeossvg.svg"
+        },
+        {
+          "id": "pb5tovERMlIXm3",
+          "name": "coach-employees.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachEmployeessvg.svg"
+        },
+        {
+          "id": "gAmpxMx6iehARM",
+          "name": "1-add-content.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_1AddContentpng.png"
+        },
+        {
+          "id": "CZs8jfGwO-SJNM",
+          "name": "2-deploy-and-play.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_2DeployAndPlaypng.png"
+        },
+        {
+          "id": "bRwgcplb3pTxSD",
+          "name": "3-track-and-improve.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_3TrackAndImprovepng.png"
+        },
+        {
+          "id": "ntyLyyyiBjoIyi",
+          "name": "Group 926.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group926Svg.svg"
+        },
+        {
+          "id": "5GdObOP3BC6nCm",
+          "name": "Group 925.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group925Svg.svg"
+        },
+        {
+          "id": "HTXqFoBClK4cNV",
+          "name": "Group 924.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group924Svg.svg"
+        },
+        {
+          "id": "jLfKfUiaSQGh_b",
+          "name": "Group 936.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group936Svg.svg"
+        },
+        {
+          "id": "yP-Yaw4VPgoXHY",
+          "name": "Group 937.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group937Svg.svg"
+        },
+        {
+          "id": "woodWNz27P7dWf",
+          "name": "industry-icons-Artboard 3 copy 5.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard3Copy5Svg.svg"
+        },
+        {
+          "id": "GoztRLFW7AWurS",
+          "name": "industry-icons-Artboard 3 copy 5 (1).svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard3Copy51Svg.svg"
+        },
+        {
+          "id": "WAKk4qbXvpwi1z",
+          "name": "industry-icons-Artboard 3 copy 5 (2).svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard3Copy52Svg.svg"
+        },
+        {
+          "id": "aoa9MynmEdTbu4",
+          "name": "#287_startup_flatline.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_287StartupFlatlinesvg.svg"
+        },
+        {
+          "id": "PCXuuOiaKEJ2J0",
+          "name": "Frame 910.jpg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/frame910Jpg.jpeg"
+        },
+        {
+          "id": "wbuWhGczDnM14z",
+          "name": "Frame 908.jpg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/frame908Jpg.jpeg"
+        },
+        {
+          "id": "AuBZHBaQBA6d3V",
+          "name": "Frame 909.jpg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/frame909Jpg.jpeg"
+        },
+        {
+          "id": "f2gdUE4UGpGuOU",
+          "name": "_x38_dxi29.tif_1_.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/x38Dxi29Tif1Svg.svg"
+        },
+        {
+          "id": "aLM4dZP4S6u1Jk",
+          "name": "industry-icons-Artboard 3 copy 5 (4).svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard3Copy54Svg.svg"
+        },
+        {
+          "id": "AJKE5vuHkk1Hsy",
+          "name": "industry-icons-Artboard 3 copy 5 (3).svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard3Copy53Svg.svg"
+        },
+        {
+          "id": "Gdy3R3VLti2TvJ",
+          "name": "app-store-i 1.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/appStoreI1Svg.svg"
+        },
+        {
+          "id": "y-ereYZNFJaHAu",
+          "name": "google-play-i 1.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/googlePlayI1Svg.svg"
+        },
+        {
+          "id": "DLfxWpf_gN3C_w",
+          "name": "Group 1040.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group1040Svg.svg"
+        },
+        {
+          "id": "QbcAB4Q_fDejd7",
+          "name": "industry-icons-Artboard 3 1.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard31Svg.svg"
+        },
+        {
+          "id": "WfyzMyvj_EMu2y",
+          "name": "web-pharma-product-training.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webPharmaProductTrainingpng.png"
+        },
+        {
+          "id": "c8Cb4HOFPlBk05",
+          "name": "web-manufacturing-safety.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webManufacturingSafetypng.png"
+        },
+        {
+          "id": "b31QhAjI92ANSD",
+          "name": "web-onboarding-training.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webOnboardingTrainingpng.png"
+        },
+        {
+          "id": "jAo4Jd25sUxJ6N",
+          "name": "web-pharma-research.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webPharmaResearchpng.png"
+        },
+        {
+          "id": "lCqHbk3xGNdUZg",
+          "name": "web-manufacturing-procedures.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webManufacturingProcedurespng.png"
+        },
+        {
+          "id": "8lhVLpJ0XsF8x1",
+          "name": "web-employees-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webEmployees1Png.png"
+        },
+        {
+          "id": "PKy6QPHVTkvc7T",
+          "name": "web-employees-2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webEmployees2Png.png"
+        },
+        {
+          "id": "2d_Epr_agjTIMV",
+          "name": "web-employees-3.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webEmployees3Png.png"
+        },
+        {
+          "id": "gsqOvP1UynaaR0",
+          "name": "web-employees-4.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webEmployees4Png.png"
+        },
+        {
+          "id": "X8hVM3hH3gYGn5",
+          "name": "web-managers-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webManagers1Png.png"
+        },
+        {
+          "id": "-9jGnELk1lDEAY",
+          "name": "web-managers-2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webManagers2Png.png"
+        },
+        {
+          "id": "CJRk-aKnbRj-Ho",
+          "name": "web-managers-3.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webManagers3Png.png"
+        },
+        {
+          "id": "1G1UGeW6h28_OF",
+          "name": "web-managers-4.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webManagers4Png.png"
+        },
+        {
+          "id": "n-kwAQg6kDReky",
+          "name": "Group 1041.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group1041Svg.svg"
+        },
+        {
+          "id": "f_3wJY3xPd7c0N",
+          "name": "illustration-banner-manufacturing.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/illustrationBannerManufacturingpng.png"
+        },
+        {
+          "id": "iep-LsLRPct9A8",
+          "name": "illustration-banner-pharma.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/illustrationBannerPharmapng.png"
+        },
+        {
+          "id": "V0UK8YbWJX4GsV",
+          "name": "phone-cut-employees.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/phoneCutEmployeespng.png"
+        },
+        {
+          "id": "Cmv5LYld14_Upy",
+          "name": "phone-cut-managers.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/phoneCutManagerspng.png"
+        },
+        {
+          "id": "HB1TmCLFgDPmME",
+          "name": "web-bg-pattern1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webBgPattern1Png.png"
+        },
+        {
+          "id": "na1HbevPsr2OLk",
+          "name": "whoitsfor-bg1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/whoitsforBg1Png.png"
+        },
+        {
+          "id": "QQm0dpR_ghOvb0",
+          "name": "whoitsfor-bg2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/whoitsforBg2Png.png"
+        },
+        {
+          "id": "LFB7sEOUHupjS-",
+          "name": "button-caret-white.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/buttonCaretWhitesvg.svg"
+        },
+        {
+          "id": "2hio4M-3kBcq0s",
+          "name": "button-caret-white.svg 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/buttonCaretWhitesvg2.svg"
+        },
+        {
+          "id": "BKPBjSpP0GFhG6",
+          "name": "phone-cut-ceos.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/phoneCutCeospng.png"
+        },
+        {
+          "id": "U7U7d_ZCBU24Ys",
+          "name": "phone-cut-ids.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/phoneCutIdspng.png"
+        },
+        {
+          "id": "0fznDCpON8O7IJ",
+          "name": "web-ids-2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webIds2Png.png"
+        },
+        {
+          "id": "99njGyxENu96vy",
+          "name": "web-ids-3.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webIds3Png.png"
+        },
+        {
+          "id": "hF0j9IIMRKi_ZI",
+          "name": "web-ids-4.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webIds4Png.png"
+        },
+        {
+          "id": "nAM52xOoo-OAo3",
+          "name": "web-ceos-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webCeos1Png.png"
+        },
+        {
+          "id": "Q7wuZ9wznnzt2U",
+          "name": "web-ceos-2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webCeos2Png.png"
+        },
+        {
+          "id": "0fPoLEmcN9-O39",
+          "name": "web-ceos-3.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webCeos3Png.png"
+        },
+        {
+          "id": "OPp5n90i7I0Q0X",
+          "name": "web-ceos-4.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webCeos4Png.png"
+        },
+        {
+          "id": "_GUr7Jpd88uEHp",
+          "name": "industry-icons-Artboard 3 copy 2.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsArtboard3Copy2Svg.svg"
+        },
+        {
+          "id": "AI0hG6ASBX12-M",
+          "name": "industry-icons-manufacturing.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsManufacturingsvg.svg"
+        },
+        {
+          "id": "gY7ZaEgMKFUX-R",
+          "name": "web-pharma-safety.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webPharmaSafetypng.png"
+        },
+        {
+          "id": "PYM7w46l2xiPqu",
+          "name": "illustration-banner-consumer-electronics.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/illustrationBannerConsumerElectronicspng.png"
+        },
+        {
+          "id": "3AwpBA1VvHBm1H",
+          "name": "illustration-banner-luxury-goods.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/illustrationBannerLuxuryGoodspng.png"
+        },
+        {
+          "id": "2HH6Mfer8xDu-p",
+          "name": "illustration-banner-telecom.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/illustrationBannerTelecompng.png"
+        },
+        {
+          "id": "-t2KLNgaWfK53k",
+          "name": "manufacturing-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/manufacturing1Png.png"
+        },
+        {
+          "id": "6TYvunj1SP6hm7",
+          "name": "pharma-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/pharma1Png.png"
+        },
+        {
+          "id": "xc4oeiYZCnVSOU",
+          "name": "telecom-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/telecom1Png.png"
+        },
+        {
+          "id": "GEnc80CZAXEKEi",
+          "name": "luxury-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/luxury1Png.png"
+        },
+        {
+          "id": "fwjREZvbWnv-ov",
+          "name": "consumerelectronics-1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/consumerelectronics1Png.png"
+        },
+        {
+          "id": "t9_v2pJfz1n8bO",
+          "name": "consumerelectronics-1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/consumerelectronics1Png2.png"
+        },
+        {
+          "id": "rCDzVMVRBcw3Fz",
+          "name": "luxury-1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/luxury1Png2.png"
+        },
+        {
+          "id": "jU8c1O-VKwh9hn",
+          "name": "manufacturing-1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/manufacturing1Png2.png"
+        },
+        {
+          "id": "rdcRM-Ol1j-9Pd",
+          "name": "pharma-1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/pharma1Png2.png"
+        },
+        {
+          "id": "xu6w-kMESUyfgc",
+          "name": "telecom-1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/telecom1Png2.png"
+        },
+        {
+          "id": "tAAe3euRgE6pcN",
+          "name": "web-consumer-product.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webConsumerProductpng.png"
+        },
+        {
+          "id": "4ssBEGOwWoknnl",
+          "name": "web-consumer-product.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webConsumerProductpng2.png"
+        },
+        {
+          "id": "1RN7nryTgv6tw1",
+          "name": "web-softskills-training.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webSoftskillsTrainingpng.png"
+        },
+        {
+          "id": "kCvbKo6CleqwCp",
+          "name": "web-sales-training.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webSalesTrainingpng.png"
+        },
+        {
+          "id": "ckyDc7e87FELUb",
+          "name": "web-luxury-product.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webLuxuryProductpng.png"
+        },
+        {
+          "id": "BNC4N72rMdbBu7",
+          "name": "web-customer-relations.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webCustomerRelationspng.png"
+        },
+        {
+          "id": "0fHDKpFXq59Nwe",
+          "name": "web-telecom-product.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/webTelecomProductpng.png"
+        },
+        {
+          "id": "ahKRDZRK9T1UHy",
+          "name": "industry-icons-telecom.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsTelecompng.png"
+        },
+        {
+          "id": "YwFfednoczwlKy",
+          "name": "industry-icons-luxurygoods.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsLuxurygoodspng.png"
+        },
+        {
+          "id": "TYZbnqAdxWjrsF",
+          "name": "industry-icons-consumerelectronics.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/industryIconsConsumerelectronicspng.png"
+        },
+        {
+          "id": "woVp-7aj4xy8vL",
+          "name": "KosaPozadina.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/kosaPozadinapng.png"
+        },
+        {
+          "id": "7sU4v-8lfsc2tU",
+          "name": "Vector 1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/vector1Png.png"
+        },
+        {
+          "id": "0KwpjSQTNCejr5",
+          "name": "Vector 2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/vector2Png.png"
+        },
+        {
+          "id": "nTBdIa4RLF0HFZ",
+          "name": "CrookedBg1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg1Png.png"
+        },
+        {
+          "id": "YJGGfKmmrtn8CP",
+          "name": "CrookedBg2.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg2Png.png"
+        },
+        {
+          "id": "3FVtGr3haIOIyY",
+          "name": "CrookedBg1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg1Png2.png"
+        },
+        {
+          "id": "J7ostYS9LEPp9s",
+          "name": "CrookedBg1.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg1Svg.svg"
+        },
+        {
+          "id": "O0VsFSIFlqrpGh",
+          "name": "CrookedBg1.svg 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg1Svg2.svg"
+        },
+        {
+          "id": "IpcZ_PpCiTTaIx",
+          "name": "CrookedBg2.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg2Svg.svg"
+        },
+        {
+          "id": "1ai9f7E79seNiT",
+          "name": "icon-industry-manufacturing.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryManufacturingsvg.svg"
+        },
+        {
+          "id": "Das_k-k-fvBfpb",
+          "name": "icon-industry-manufacturing-hover.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryManufacturingHoversvg.svg"
+        },
+        {
+          "id": "d202gkS_Iy0ZcX",
+          "name": "icon-industry-consumer.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryConsumersvg.svg"
+        },
+        {
+          "id": "zODSg55wg2HXqC",
+          "name": "icon-industry-consumer-hover.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryConsumerHoversvg.svg"
+        },
+        {
+          "id": "iyySOVdfy9qzw5",
+          "name": "icon-industry-pharma.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryPharmasvg.svg"
+        },
+        {
+          "id": "vjmhImAkOZTQXl",
+          "name": "icon-industry-pharma-hover.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryPharmaHoversvg.svg"
+        },
+        {
+          "id": "hCjrzZLrvcXb41",
+          "name": "icon-industry-pharma.svg 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryPharmasvg2.svg"
+        },
+        {
+          "id": "EectnuMKg2NTI1",
+          "name": "icon-industry-telecom.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryTelecomsvg.svg"
+        },
+        {
+          "id": "TeAMv5ibJ9IbW4",
+          "name": "icon-industry-telecom-hover.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryTelecomHoversvg.svg"
+        },
+        {
+          "id": "HdIbqqmDz8yvHx",
+          "name": "icon-industry-luxury.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryLuxurysvg.svg"
+        },
+        {
+          "id": "3w0nPQLaYztSYF",
+          "name": "icon-industry-luxury-hover.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/iconIndustryLuxuryHoversvg.svg"
+        },
+        {
+          "id": "29xOFIjTa74kaa",
+          "name": "2-deploy-and-play.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_2DeployAndPlaypng2.png"
+        },
+        {
+          "id": "4KDIBRxiaWbydl",
+          "name": "1-add-content.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_1AddContentpng2.png"
+        },
+        {
+          "id": "NJKpDacejjsLkY",
+          "name": "3-track-and-improve.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/_3TrackAndImprovepng2.png"
+        },
+        {
+          "id": "Ahd6htTVzjnasl",
+          "name": "CrookedBg3.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg3Svg.svg"
+        },
+        {
+          "id": "zoKi0YX-rlCaFw",
+          "name": "CrookedBg4.svg",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/crookedBg4Svg.svg"
+        },
+        {
+          "id": "lnqtLfe3iGFBQ4",
+          "name": "testimonialimg-ivana.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/testimonialimgIvanapng.png"
+        },
+        {
+          "id": "8CbYvMPdQDuM8I",
+          "name": "testimonial-logo-springwell.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/testimonialLogoSpringwellpng.png"
+        },
+        {
+          "id": "gIpik2g0vnwB9D",
+          "name": "Group 58.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group58Png.png"
+        },
+        {
+          "id": "gsptGKtDfFvCZt",
+          "name": "Group 88.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/group88Png.png"
+        },
+        {
+          "id": "fZTiREGMn-hYWO",
+          "name": "featuresbanner1.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/featuresbanner1Png.png"
+        },
+        {
+          "id": "vuSd4s0AcR2CHd",
+          "name": "featuresbanner1.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/featuresbanner1Png2.png"
+        },
+        {
+          "id": "0sfRZ4OAQrVDBF",
+          "name": "coach-teamwork.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachTeamworkpng.png"
+        },
+        {
+          "id": "Z7qt0FqS0jezr8",
+          "name": "aboutusbannerimg.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/aboutusbannerimgpng.png"
+        },
+        {
+          "id": "Iyxyq5FQymobMb",
+          "name": "aboutusbannerimg.png 2",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/aboutusbannerimgpng2.png"
+        },
+        {
+          "id": "b3Q6jmhH19fCOC",
+          "name": "coach-icon-phone.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachIconPhonepng.png"
+        },
+        {
+          "id": "3Yv7yZVlTQSI27",
+          "name": "coach-icon-mail.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachIconMailpng.png"
+        },
+        {
+          "id": "iTebuCPvtYkCoT",
+          "name": "coach-icon-company.png",
+          "filePath": "../public/plasmic/copy_of_coach_website/images/coachIconCompanypng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ZOnCq2T6SF2FF",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Z0coAzoLc6n9U",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "uYWRhk1wutltyF",
+          "name": "ShowcaseComponent",
+          "componentImportPath": "components/Showcase/ShowcaseComponent"
+        },
+        {
+          "id": "WIlvYZB-xUCi-k",
+          "name": "WebShowcaseComponent",
+          "componentImportPath": "components/Showcase/WebShowcaseComponent"
+        },
+        {
+          "id": "2JstrhPmvmAqxN",
+          "name": "ShowcaseComponentMobile",
+          "componentImportPath": "components/Showcase/ShowcaseComponentMobile"
+        },
+        {
+          "id": "bRweiSYxtjVKNn",
+          "name": "WebShowcaseComponentMobile",
+          "componentImportPath": "components/Showcase/WebShowcaseComponentMobile"
+        },
+        {
+          "id": "N-9Hz_M7TnDLSc",
+          "name": "Header",
+          "componentImportPath": "components/Header/Header"
+        },
+        {
+          "id": "yP27AjZwj4htaD",
+          "name": "ShowcaseComponent",
+          "componentImportPath": "components/Showcase/ShowcaseComponent"
+        },
+        {
+          "id": "p4X3ILfX2CR_yA",
+          "name": "WebShowcaseComponent",
+          "componentImportPath": "components/Showcase/WebShowcaseComponent"
+        },
+        {
+          "id": "65iGVZTsnBzZzm",
+          "name": "ShowcaseComponentMobile",
+          "componentImportPath": "components/Showcase/ShowcaseComponentMobile"
+        },
+        {
+          "id": "Z-8V6WFx2fIrXb",
+          "name": "WebShowcaseComponentMobile",
+          "componentImportPath": "components/Showcase/WebShowcaseComponentMobile"
+        },
+        {
+          "id": "SSWFQrnydfYP_2",
+          "name": "Header",
+          "componentImportPath": "components/Header/Header"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "VsF6OfTsfNeBYL",
+        "name": "Screen",
+        "projectId": "oVWAucqWj6DsPJvsydPAdo",
+        "contextFilePath": "plasmic/copy_of_coach_website/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.211",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.211/dist/plasmic.schema.json"
+}
